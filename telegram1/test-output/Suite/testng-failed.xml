@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="task1_mock_demowebshop.RegisterTest">
+        <methods>
+          <include name="PassWordChangeTest_023"/>
+          <include name="logout"/>
+          <include name="EmailToFriendTest_010"/>
+          <include name="aftermethod"/>
+          <include name="basetest"/>
+          <include name="basesuite"/>
+          <include name="AddMultipleCountToCartSectionTest_011"/>
+          <include name="ShopingCartPageTest_003"/>
+          <include name="RecentelyViewedItemsTest_024"/>
+          <include name="openbrowser"/>
+          <include name="LoginTest_002"/>
+          <include name="ComputersPageTest_007"/>
+          <include name="CustomerInfoEditTest_016"/>
+          <include name="RegisterTest_001"/>
+          <include name="SearchProductTest_020"/>
+          <include name="ComputerTypeSelectTest_008"/>
+          <include name="ContactUsTest_018"/>
+          <include name="WishListTest_005"/>
+          <include name="SearchTest_004"/>
+          <include name="WelcomeToOurStoreTest_003"/>
+          <include name="login"/>
+          <include name="AddressAddTest_006"/>
+          <include name="CompareProductsTest_013"/>
+          <include name="AddMultipleProductsToCartTest"/>
+          <include name="OrderPlaceTest_015"/>
+          <include name="aftertest"/>
+          <include name="AddressChangeTest_012"/>
+          <include name="OrderDetailsTest_017"/>
+          <include name="closebrowser"/>
+          <include name="DropDownTest"/>
+          <include name="AddingProducttoProduct_009"/>
+          <include name="FallowUsLinkTest_004"/>
+        </methods>
+      </class> <!-- task1_mock_demowebshop.RegisterTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
